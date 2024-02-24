@@ -16,8 +16,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int nShowCmd) {}
 - Step 3:
 Similarly to HRESULTS, Win32Helper will give back an error code in case construction fails, along with displaying a Message Box to the user with the details needed about the Error.
 
-```
-...
+```cpp
   int rs = 0; // error code
 ```
 - Step 4:
